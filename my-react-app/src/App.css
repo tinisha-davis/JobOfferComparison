@@ -3,15 +3,34 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: dimgray;
 }
 #fields {
   display: flex;
-  flex-direction: row;
-  columns: 2;
+  justify-content: space-between;
+  gap: 2px; 
+  margin: 5px; 
 }
+.sidebar {
+  display: none;
+}
+
 .fieldContainer {
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
+}
+.offerPlacehold {
+  display: flex; 
+  flex-direction: column;
+  padding: 20px; 
+  margin-left: 15px;
+  margin-right: 10px; 
+  margin-bottom: 10px;
+  border: 2px solid grey; 
+  background-color: lightgray; 
+  align-items: left;
+  width: 400px; 
+  height: 600px; 
 }
 .field {
   display: flex;
