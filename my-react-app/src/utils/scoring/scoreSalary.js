@@ -9,6 +9,4 @@ export function scoreSalary(data) {
 
     // Convert to 0-10 scale
     return normalized * 10;
-
-
 }
